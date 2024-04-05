@@ -1,0 +1,29 @@
+.scrollableEvents{
+    display: flex;
+    /* max-width: 800px; */
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  
+  .event .eventDetails {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 0;
+    color: #fff;
+    padding: 10px;
+    width: 18rem;
+  }
+  
+  .event .eventDetails p {
+    margin: 5px 0;
+    font-size: 14px; /* Adjust font size as needed */
+  }
+
+
+  .event {
+    position: relative;
+    flex: auto;
+    margin-right: 20px;
+    padding: 0;
+  }

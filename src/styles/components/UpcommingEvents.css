@@ -1,0 +1,54 @@
+@import '~typeface-inter';
+
+.upcomingEventsContainer{
+    position: relative;
+    bottom: 100px;
+    margin: 0 7% 5%;
+}
+
+.eventHeading{
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.cardImgTop{
+    height: 270px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.eventCard{
+    border-radius: 15px;
+    border: 1px sloid #B0BABF;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.cardBody{
+    padding-bottom: 0;
+    margin: 0 24px 0;
+    position: relative;
+    bottom: 40px;
+}
+
+.cardHeading{
+    font-weight: bolder;
+}
+
+.cardText{
+    display: flex;
+    justify-content: space-between;
+    color: #B0BABF;
+    font-size: small;
+}
+
+.upcommingEventDate{
+    width: 90%;
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    /* font-size: large; */
+    color: #B0BABF;
+}
