@@ -29,7 +29,7 @@ const Navbar = () => {
 
 
       <div className="containerLocationAndShowsOutside">
-        <p className="locationLargeScreen col-lg-4"><FaMapMarkerAlt style={{ color: '#989090',fontSize:'x-large' }} /> Mumbai, India    <FaAngleRight style={{ color: 'gray' }}  /></p>
+        <p className="locationLargeScreen col-lg-4"><FaMapMarkerAlt style={{ color: '#989090',fontSize:'x-large' }} /> Mumbai, India    <FaAngleRight style={{ color: 'gray',fontSize:'x-large' }}  /></p>
         <div className="categoryTagsContainer col-lg-6">
           <span className="categoryTag">Live Shows</span>
           <span  className="categoryTag">Streams</span>

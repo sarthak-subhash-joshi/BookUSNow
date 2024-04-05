@@ -105,11 +105,12 @@ const UpcomingEvents = () => {
           ))}
         </div>
         <div ref={loaderRef} style={{ visibility: "hidden" }} />
-        {loading &&<>
-          <p style={{color:'#B0BABF'}}>Loading</p>
-          <PacmanLoader color="#36d7b7" />
+       <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+       {loading &&<>
+          <PacmanLoader color="#36d7b7" /> 
         </>
         }
+       </div>
         {/* {error && <p>{error}</p>} */}
       </div>
     </>

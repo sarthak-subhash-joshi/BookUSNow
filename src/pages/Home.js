@@ -8,6 +8,7 @@ import HorizontalScroller from "../components/HorizontalScroller";
 const Home = () => {
   return (
     <>
+
       <Navbar />
       <div className="bannerContainer">
         <div className="backgroundImage" />
