@@ -22,15 +22,15 @@ This will open your React project in your default web browser. You can access it
 
 ### Tech Stack 
 
-Frontend Framework: ReactJS
-CSS Framework: Bootstrap
+1) Frontend Framework: ReactJS
+2) CSS Framework: Bootstrap
 
 ## Libraries and Dependencies:
 
-react: JavaScript library for building user interfaces.
-react-dom: Provides DOM-specific methods for React components.
-react-icons: Library for adding icons to React applications.
-react-slick: React carousel component based on Slick carousel.
-react-spinners: Collection of loading spinner components for React.
-axios: Promise-based HTTP client for making API requests.
-aos: Library for animating elements on scroll.
+1) react: JavaScript library for building user interfaces.
+2) react-dom: Provides DOM-specific methods for React components.
+3) react-icons: Library for adding icons to React applications.
+4) react-slick: React carousel component based on Slick carousel.
+5) react-spinners: Collection of loading spinner components for React.
+6) axios: Promise-based HTTP client for making API requests.
+7) aos: Library for animating elements on scroll.
